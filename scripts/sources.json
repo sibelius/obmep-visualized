@@ -1,0 +1,18 @@
+[
+  { "year": 2025, "edition": 4, "phase": 1, "level": 1, "prova": "1aUUGrqoMzTvMXhZe6i_vzwquHSP7xEc5", "solucao": "1SlVxpAN9Ktldo0HzlgJsdsDqOnN1axZ2" },
+  { "year": 2025, "edition": 4, "phase": 1, "level": 2, "prova": "1EuqwFpAWCRZJk0800wfZ01QRVuCjk7D9", "solucao": "1oLR44Jt7fj5nANsbHH09P1vQIgmUOI-m" },
+  { "year": 2025, "edition": 4, "phase": 2, "level": 1, "prova": "1YNibd5tuJ5du77IaTo-n54NaFvYqV3uu", "solucao": "1xObbKRIDyNPOm2n91kK_zPBhZqQJXsvl" },
+  { "year": 2025, "edition": 4, "phase": 2, "level": 2, "prova": "1Iueijq6EsIa41Nq6ocGJ_uwXi_A8rQ17", "solucao": "1KOl6Urwp_RBvt6HcjX0xW9jUVtvzXNyF" },
+  { "year": 2024, "edition": 3, "phase": 1, "level": 1, "prova": "1wuuYb0KjGeR-y2_AwFowjWwXsxmmouf2", "solucao": "1StMEh_bCXv2BONLY6A1guSzZtwEZZwSU" },
+  { "year": 2024, "edition": 3, "phase": 1, "level": 2, "prova": "1ZEIBhLQ-mWY7WuGWxhBGGmlHGnjDORe_", "solucao": "1RGAMgf2SA4PAN-rvjyKZFjj6O1Nm1lKP" },
+  { "year": 2024, "edition": 3, "phase": 2, "level": 1, "prova": "1lH0hwjDi7bfMOQOtcFKIeUpRmgqt0Ely", "solucao": "1TK89XwnKTTv6LGJWqT-RSUygsOEmlIFy" },
+  { "year": 2024, "edition": 3, "phase": 2, "level": 2, "prova": "1YNNxDdoGyq43uggVSvsfGZ7HrKlLA1xy", "solucao": "1dXudiWQMvNz81fRB6kFLBKTF7nOmuvFH" },
+  { "year": 2023, "edition": 2, "phase": 1, "level": 1, "prova": "1qOExhUNEc42sfNFo5_8CwZsDrkh6SWrg", "solucao": "1LlYxRwl3FGx35nqwIawYOVzTbXiizs8I" },
+  { "year": 2023, "edition": 2, "phase": 1, "level": 2, "prova": "1X-y9ery4DhthT7vziMCtKq1E39oz0gFo", "solucao": "1WQDbufgEPRy6OuCLO4wqedVJg6SlLYph" },
+  { "year": 2023, "edition": 2, "phase": 2, "level": 1, "prova": "1DggNOWqHJ7Pzjz3Bv8k5xkO19Si468Zz", "solucao": "1EdHr2VFeJp7rhk5COkWdyc6sqQiGQvqp" },
+  { "year": 2023, "edition": 2, "phase": 2, "level": 2, "prova": "1wSTt0DjtLDKVMDfHygu_RyarZL0kVpcB", "solucao": "1m6nm69b7Up0D-VXVgdt9wd5YOAxXKpOY" },
+  { "year": 2022, "edition": 1, "phase": 1, "level": 1, "prova": "1ODPUse4q4GQ3WsFeiS7P2jNqtRraWpuT", "solucao": "1Xs_Iz0hwecGcbczKKBX0x0Rrt1x4D1IR" },
+  { "year": 2022, "edition": 1, "phase": 1, "level": 2, "prova": "1PfJNAM91orv-XsSuc6GzOtQY93i2356X", "solucao": "1bTuH2iudsF9mLKh8e0o-fUaMg-rFIgOa" },
+  { "year": 2022, "edition": 1, "phase": 2, "level": 1, "prova": "1n48zPM8O-0jq_vsyi-r_uWC6H6Rv13tF", "solucao": "105W-GcQFXJgsmnDFX7Ku5Wxw0mLQBIwd" },
+  { "year": 2022, "edition": 1, "phase": 2, "level": 2, "prova": "1-iBjSrp_U5EoepgzgjX_h7fxtnwAb0_R", "solucao": "1w6wNNbHIPjkbCKSeYhiVKl4rDB4xb6Zz" }
+]

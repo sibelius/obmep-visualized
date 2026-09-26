@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OBMEP Mirim interativa
 
-## Getting Started
+Resolve the official [Olimpíada Mirim – OBMEP](https://olimpiadamirim.obmep.org.br/provas-solucoes) exams question by question: pick an answer, get instant feedback, and reveal the official solution. Progress is kept in `localStorage`.
 
-First, run the development server:
+Covers 2022–2025, 1ª and 2ª fase, Mirim 1 and Mirim 2 (16 exams, 240 questions).
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Regenerating the content
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Questions and solutions are sliced from the official PDFs into images (`public/exams/`) plus an index (`src/data/exams.json`):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+brew install poppler tesseract
+node scripts/extract.mjs            # all exams
+node scripts/extract.mjs --only 2025-f1-m1
+```
 
-## Learn More
+- `scripts/sources.json` — Google Drive ids of each exam/solution PDF (from the official page).
+- `scripts/overrides.json` — manual question positions (`page` index, `y` in PDF points) for the few questions whose numbers can't be read from the PDF text or OCR.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Content © OBMEP / IMPA. This is an independent project with no official affiliation.
