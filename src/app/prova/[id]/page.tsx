@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { examTitle, exams, getExam, gradeLabel } from "@/lib/exams";
 import { ExamPlayer } from "@/components/ExamPlayer";
+import { examMetadata } from "@/lib/og";
 
 export const dynamicParams = false;
 
@@ -11,8 +12,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps<"/prova/[id]">): Promise<Metadata> {
-  const exam = getExam((await params).id);
-  return exam ? { title: examTitle(exam) } : {};
+  return examMetadata((await params).id);
 }
 
 export default async function ExamPage({ params }: PageProps<"/prova/[id]">) {
